@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x hello
+touch hello && chmod 644 hello && ./5-execute && ls -l hello
